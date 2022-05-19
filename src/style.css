@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Rajdhani;
+    src: url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap);
+}
+*{
+    font-family: Rajdhani;
+}
+body {
+    align-content: center;
+    align-items: center;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg,#0093e9,#80d0c7);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    min-height: 625px;
+    text-align: center;
+}
+.app {
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+}
+.name-project {
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.form-submit{
+    margin: 0 -30px 10px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    width: calc(100% + 60px);
+}
+
+.form-submit input {
+    background: #f1f1f1;
+    border: none;
+    color: #222;
+    float: left;
+    font-weight: 500;
+    height: 45px;
+    padding-left: 15px;
+    width: 70%;
+}
+.form-submit .add-course {
+    background: #0093e9;
+    border: none;
+    box-shadow: 2px 7px 13px 0 #0591e3;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    height: 47px;
+    width: calc(22% + 6px);
+}
+.courses-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.courses-list .item {
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 3px 13px 12px #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+    padding: 15px 25px;
+}
+.name-course{
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.delete-course,
+.edit-course,
+.update-course{
+    background: #ed3737;
+    border-radius: 50%;
+    box-shadow: -1px 3px 13px 0 #cf2d2d;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    border: none;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.edit-course,
+.update-course{
+    background: #2ecc71;
+    box-shadow: -1px 3px 13px 0 #2ecc71;
+}
+.update-course-form{
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 3px 13px 12px #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+    padding: 15px 25px;
+}
+.update-course-form input{
+    border: none;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.update-course-form input:focus,
+.form-submit input{
+    outline: none;
+}
+.no-item {
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+
+
