@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AnwarArCoder/Crud_App_React/static/css/main.05585a3c.css",
+    "main.js": "/AnwarArCoder/Crud_App_React/static/js/main.05f49d17.js",
+    "index.html": "/AnwarArCoder/Crud_App_React/index.html",
+    "main.05585a3c.css.map": "/AnwarArCoder/Crud_App_React/static/css/main.05585a3c.css.map",
+    "main.05f49d17.js.map": "/AnwarArCoder/Crud_App_React/static/js/main.05f49d17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05585a3c.css",
+    "static/js/main.05f49d17.js"
+  ]
+}
